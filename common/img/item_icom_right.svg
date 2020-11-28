@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.712" height="23.902" viewBox="0 0 23.712 23.902">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="_copy" data-name="&lt; copy" transform="translate(0.5 0.5)">
+    <g id="Arrow_Left_5" data-name="Arrow Left 5" transform="translate(17.761 14.541)">
+      <path id="Stroke_1080" data-name="Stroke 1080" class="cls-1" d="M-8.794,8.53l2.621-4.007a.374.374,0,0,0,0-.384L-8.794.132C-8.827.082-8.8,0-8.753,0h2.61A.049.049,0,0,1-6.1.025l2.691,4.114a.373.373,0,0,1,0,.384L-6.1,8.637a.049.049,0,0,1-.04.025h-2.61C-8.8,8.662-8.827,8.58-8.794,8.53Z" transform="translate(8.809)"/>
+    </g>
+    <path id="Line" class="cls-2" d="M-14.23,1.5H-36.514" transform="translate(36.514 -1.5)"/>
+    <path id="Line_Copy" data-name="Line Copy" class="cls-2" d="M22.284,0H0" transform="translate(0.009 22.902) rotate(-90)"/>
+  </g>
+</svg>

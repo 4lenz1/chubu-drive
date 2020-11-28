@@ -1,0 +1,189 @@
+
+    
+.ms_box .js-tab-btn{
+    margin:0;
+}
+.ms_box .js-tab-btn div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    width: inherit;
+    width: 100%;
+    height: auto;
+    border: inherit;
+    border-radius: inherit;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    color: #22ac38;
+    text-align: center;
+    transition: all 0.2s ease;
+    letter-spacing: 0;
+    background: inherit;
+    padding: inherit;
+}
+.ms_box .js-tab-btn.current {
+    background:none;
+}
+.ms_box .js-tab-btn div.ms_img_txt {
+    position:absolute;
+    left:0;
+    bottom:20px;
+    right:0;
+    text-align:center;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.16);
+
+}
+.ms_box .js-tab-btn:hover {
+    opacity: 1;
+}
+.ms_box .ms_item {
+    width: calc((100% / 4) - 26px);
+    padding: 0 13px;
+    border-radius: 20px;
+    display: block;
+    position: relative;
+}
+   .ms_box .js-tab-btn.current div {
+    background: transparent;
+    border: none;
+    height: auto;
+}
+  .ms_box .js-tab-btn.current img {
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.26);
+}
+.schedule.deparr .left div img {
+    width:70px !important;
+}
+.schedule.deparr .left div img {
+    left:70px;
+    top: 0px;
+}
+@media (max-width: 768px) {
+    .ms_box .ms_item {
+        width: calc((100% / 2) - 26px);
+    }
+    .schedule.dep .left div img {
+        top: -33px;
+        left: 0;
+    }
+}
+.zj_tj .js-tab-btn div {
+    font-weight:bold;
+}
+.tab_inner p.title {
+    color: #052091;
+}
+.area02_03 .schedule_box .num .ride {
+    color: #052091;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+        top: 150px;
+    right: 19px;
+    width: 130px;
+}
+.area02_03 .schedule_box .num .ride .ate{
+    transform: rotate(90deg);
+        display: inline-block
+}
+.tab_inner p.text {
+    color:#8B8B8B;
+}
+.schedule_box .inner_text .title {
+    font-weight:bold;
+}
+.schedule_box .inner_text .text {
+    color:#8F8F8F;
+}
+.schedule_box .inner_text .time {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #052091;
+    white-space:nowrap;
+}
+.schedule_box .num .ride::before {
+    display:none;
+}
+.area02_03 .schedule_box .num .ride::after {
+    background-image: url(../img/cus/ico_ride.png);
+}
+.schedule_box .num .ride::after {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 13px;
+    margin: auto;
+}
+.schedule .left div {
+    background: rgba(5, 32, 145, .05);
+}
+.schedule .left div {
+    color: #052091;
+}
+.schedule .left div.s02 {
+    margin: 5px 0 0 0;
+}
+h2.area span {
+    display: block;
+    padding: 0 0 10px;
+    font-weight: bold;
+}
+.__chudotitle {
+    line-height: 1;
+}
+.js-tab-contents img {
+    max-width: 502px;
+    margin:0 auto;
+    display: block;
+}
+.titlems {
+    padding: 50px 0 50px 0;
+}
+.js-tab-wrap ul.cont li .text a div.btn_pop img {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+.area02_03 .schedule_box .num .ride {
+    right: -15px;
+}
+.schedule.deparr .left div img {
+    left: 0;
+    top: 0px;
+}
+}
+.season {
+    padding:0 !important;
+}
+.pop_box .inner_box {
+    background: #f3fdec;
+    border: 1px solid #44a000;
+}
+.pop_box .inner_box p.season_ico {
+    border: 1px solid #44a000;
+    color: #44a000;
+}
+.pop_box .text_box a .button {
+    color: #44a000;
+}
+.pop_box .text_box a:hover .button {
+    border-bottom: 2px solid #44a000;
+}
+.pop_box .text_box a .button.black {
+    color: #000000;
+    margin-top:0;
+}
+.pop_box .text_box a:hover .button.black {
+    border-bottom: 2px solid #000000;
+}

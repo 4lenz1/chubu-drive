@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	color: #333333;
+	letter-spacing: 0em;
+	line-height: 1.8;
+}
+
+
+#mv .text_box {
+	font-size: 26px;
+}
+
+.pop_box .inner .season span {
+		display: inline-block;
+		width: auto;
+	font-size: 13px;
+	padding: 3px 0 0 0;
+	}
+
+.pop_box .inner .season span.sp {
+	display: none;
+}
+
+@media (max-width: 768px){
+
+	#mv .text_box {
+	font-size: 13px;
+}
+
+.js-tab-wrap ul.cont li p.text01 {
+	padding: 0 0 0px;
+}
+
+	.pop_box .inner .season span.sp {
+		display: inline-block;
+		width: 100%;
+	font-size: 13px;
+	padding: 0px 0 10px 0;
+	}
+
+	.pop_box .inner .season span.pc {
+	display: none;
+}
+
+}
+
+
+
+.season p{
+	display: block;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.course p{
+	display: block;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.pop_box .inner .season {
+	display: flex;
+	padding: 0 0 5px;
+	flex-wrap: wrap;
+}
+.pop_box .inner .course {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pop_box .inner .season p,
+.pop_box .inner .course p{
+	display: block;
+	margin: 0 10px 5px 0;
+	padding: 0 5px;
+	white-space: nowrap;
+}
+
+	.pop_box .inner_box .season .inner,
+.pop_box .inner_box .course .inner{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+
+.schedule .left div.s01 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+
+.schedule .left div.s02 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+
+.schedule .left div.s03 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+
+.schedule .left div.s03_2 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+
+.schedule .left div.s04 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+
+.schedule .left div.s05 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+
+.schedule .left div.s06 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+.schedule .left div.s07 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+.schedule .left div.s08 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+.schedule .left div.s09 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+.schedule .left div.s10 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+.schedule .left div.s11 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+.schedule .left div.s_last2 span,
+.schedule .left div.s_last3 span,
+.schedule .left div.s_last4 span,
+.schedule .left div.s_last5 span {
+	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+	width: 13px;
+	display: block;
+}
+@media (min-width: 769px) {
+	section#section02 .box > p:first-child {
+		padding-right: 85px;
+	}
+}
+
+@media (max-width: 1457px) and (min-width: 1350px) {
+	section#section02 .box > p:first-child {
+		padding-right: 85px;
+	}
+	section#section02 .title + p {
+		padding-right: 123px;
+	}
+}

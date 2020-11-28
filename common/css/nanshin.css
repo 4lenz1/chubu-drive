@@ -1,0 +1,197 @@
+/* 下層 */
+
+#area01_01 p.title {
+	color: #29749a;
+}
+#area01_01 p.area {
+	color: #29749a;
+}
+
+
+/*タブのスタイル*/
+
+.js-tab-btn div{
+  border: 2px solid #29749a;
+  color: #29749a;
+}
+
+
+/*選択されているタブのスタイルを変える*/
+.js-tab-btn.current {
+	background:url("../img/area02/ico_arrow2.png") 50% 100% no-repeat;
+	color: #fff;
+}
+
+.js-tab-btn.current div {
+	background:#29749a;
+	color: #fff;
+}
+
+
+.js-tab-wrap p.title {
+	color: #29749a;
+}
+
+.js-tab-wrap ul.cont li {
+	border: 2px solid #eef6fb;
+	align-self:stretch;
+}
+
+.js-tab-wrap ul.cont li p.text01 {
+	color: #29749a;
+}
+
+.js-tab-wrap ul.cont li:hover {
+	background: #eef6fb;
+}
+
+.pop_box .text_box a .button {
+	color: #29749a;
+}
+
+.pop_box .text_box a:hover .button{
+	border-bottom: 2px solid #29749a;
+}
+.pop_box .inner_box {
+	background: #eef6fb;
+	border: 1px solid #29749a;
+}
+.pop_box .inner_box p.season_ico {
+	border: 1px solid #29749a;
+	color: #29749a;
+}
+.pop_box .inner_box p.course_ico {
+	background: #29749a;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.tab_inner p.title {
+	color: #29749a;
+}
+
+.schedule .left div {
+	background: url("../img/area02/bg_arrow.png") 50% 100% no-repeat,#eef6fb;
+	color: #29749a;
+}
+.schedule .left div.s04 {
+	height: calc(100% + 50px);
+}
+
+.schedule .left div.s05 {
+	height: calc(100% - 20px);
+	margin: 70px 0 0 0;
+}
+
+.schedule .left div.s06 {
+	height: 50%;
+	margin: 70px 0 0 0;
+}
+
+.schedule .left div.s10 {
+	height: 64%;
+	margin: 70px 0 0 0;
+}
+.schedule .left div.s11 {
+	height: 78%;
+	margin: 70px 0 0 0;
+}
+
+.schedule_box .num {
+	background: url("../img/area02/dot_arrow.png") 53% 100% no-repeat;
+}
+
+@media (max-width: 768px){
+
+	/* 下層 */
+	#area01_01 p.area {
+		color: #29749a;
+	}
+
+	/*タブのスタイル*/
+	.js-tab-btn {
+		float: left;
+	}
+	.js-tab-btn div {
+	  border: 1px solid #eef6fb;
+	  color: #29749a;
+	}
+
+
+	/*選択されているタブのスタイルを変える*/
+
+	.js-tab-btn.current div {
+		background:#29749a;
+		border: 1px solid #29749a;
+	}
+
+	.js-tab-wrap p.title {
+		font-size: 16px;
+		color: #29749a;
+	}
+
+	.js-tab-wrap ul.cont li {
+		border: 2px solid #eef6fb;
+	}
+
+	.js-tab-wrap ul.cont li p.text01 {
+		color: #29749a;
+		line-height: 1.8;
+	}
+	.js-tab-wrap ul.cont li p.text02 {
+		line-height: 1.8;
+	}
+
+
+
+	.pop_box .text_box a .button {
+		color: #29749a;
+	}
+	.pop_box .text_box a:hover .button{
+		border-bottom: 2px solid #29749a;
+	}
+
+	.pop_box .inner_box {
+		background: #eef6fb;
+		border: 1px solid #29749a;
+	}
+	.pop_box .inner p.season_ico {
+		border: 1px solid #29749a;
+		color: #29749a;
+	}
+	.pop_box .inner p.course_ico {
+		background: #29749a;
+		margin: 0 10px 0 0;
+		display: inline-block;
+		padding: 0 10px;
+	}
+
+	.pop_box .inner .season span {
+		display: block;
+		width: calc(100% - 150px);
+	}
+
+	.tab_inner p.title {
+		color: #29749a;
+	}
+
+	.schedule .left div {
+		background: url("../img/area02/bg_arrow.png") 50% 100% no-repeat,#eef6fb;
+		color: #29749a;
+	}
+
+		.schedule .left div.s10 {
+		height: calc(100% - 20px);
+		margin: 0px 0 0 0;
+	}
+		.schedule .left div.s11 {
+		height: calc(100% - 20px);
+		margin: 0px 0 0 0;
+	}
+
+	.schedule_box .num {
+		background: url("../img/area02/dot_arrow.png") 50% 100% no-repeat;
+	}
+
+
+}

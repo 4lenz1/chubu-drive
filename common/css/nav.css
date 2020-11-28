@@ -1,0 +1,136 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+nav.visible {
+    background-color: #86D6EA;
+    overflow: hidden;
+}
+nav .navigation_inner .navigation_menu {
+    margin-top:-25vw;
+}
+@media (max-width: 768px) {
+    nav .navigation_inner .navigation_menu {
+    margin-top:-50vw;
+}
+}
+nav .navigation_inner .navigation_menu ul li a {
+    color: rgba(3, 65, 96, .3);
+}
+nav .navigation_inner .navigation_menu ul li {
+    color: #034160;
+}
+
+div#top:before {
+    content:"";
+    display:block;
+    height:100%;
+    width:100%;
+    position:absolute;
+    bottom:40px;
+    left:0;
+    background:url(../img/icon_bg.png) left bottom no-repeat;
+    background-size:100%;
+}
+nav.visible:after {
+    content:"";
+    display:block;
+    position:absolute;
+    bottom:50px;
+    left:0;
+    background:url(../img/icon_bg_car.png) left bottom no-repeat;
+    background-size:100%;
+    width: 37.50vw;
+    height: 13.32vw;
+    position: absolute;
+    z-index: 99;
+    transform: translateX(100vw);
+    animation: car_l 10s 5s linear infinite;
+    -webkit-animation: car_l 10s 1s linear infinite;
+    display:none;
+}
+@keyframes car_l {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-60vw);
+  }
+}
+@-webkit-keyframes car_l {
+  0% {
+    -webkit-transform: translateX(110vw);
+  }
+  100% {
+    -webkit-transform: translateX(-60vw);
+  }
+}
+nav.cusm {
+    padding-top:0;
+}
+nav.visible {
+    background-color: #86D6EA;
+    overflow: hidden;
+}
+div#top {
+    background-color: #9baecf;
+}
+div#top:before {
+    content:"";
+    display:block;
+    height:100%;
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    left:0;
+    background:url(../img/navbg.jpg) right bottom no-repeat;
+    background-size:100%;
+    background-size: cover;
+}
+div#top .top_inner{
+    width:465px;
+    background: rgba(0,0,0,.1);
+    padding: 45px 0 60px;
+}
+@media (max-width: 768px) {
+    div#top .top_inner {
+        width: 100%;
+    }
+}
+div#top .top_inner ul{
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+nav .navigation_inner {
+    align-items: self-start;
+}
+div#top .top_inner ul li {
+    color: #000;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#top .top_inner ul li.active::before,div#top .top_inner ul li:hover::before {
+    width:20px;
+    height:20px;
+    border-radius:20px;
+    background:#fff;
+    content:"";
+    display:block;
+    margin-right: 30px;
+    position: absolute;
+    left: 20%;
+}
+div#top .top_inner ul li a {
+    color: #fff;
+}
+div#top .top_inner {
+    margin-top: 0;
+        margin: 0 auto;
+    height: auto;
+}
+.cusm {
+    
+}
